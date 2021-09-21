@@ -1,0 +1,28 @@
+Using HHI system with approx 2.5 m fiber length => 2 fibers (yellow probably not PM, and blue PM).
+Problem: HHI system output only 8 mW per arm (checked only with "original" blue fibers as well).
+
+==============Collimating the beam=================
+Using TPX 50 mm lens from BATOP for collimating the THz radiation from transceiver.
+
+Mounting the transceiver:
+Using the holder designed for robotic arm with two lens holders and a tube for transceiver. 
+Transceiver has two windings (holes with 90 degrees angle with respect to eeach other) to fix it. Looking in the direction of the beam propagation one hole is on top the other on the right side.
+It seemed as if the orientation of the transceiver influences the signal (established at rough placement of the transceiver)
+The distance from the lens holder (edge close to the transceiver) to the edge of the transceiver: approx 25 mm (lens is a few mm inside the holder)
+
+It is highly sensitive to hitting the lens not directly in the center (off the optical axis)
+
+4THz bandwidth and almost 60 dB peak dynamic range with 60 ps window and 1000 averages! almost 50 dB at 2 THz
+
+
+==============Focusing the beam===================
+For focusing the collimated beam, a 100 mm TPX Lens from BATOP was used (this lens is relatively thick)
+Distance from the lens to the mirror: approx 115 mm (mirror to the flat side)
+Not sensitive to hitting the lens off-axis at all
+55 dB dynamic range with 60 ps window and 1000 averages; 30 dB at 2 THz
+Bandwidty of 3.5 THz
+
+
+==============Alternatives===========
+Use 32.5 mm lens for collimating (will be closer to the transceiver, maybe this way one collets more THz (less loss); maybe a smaller beam diametter => bigger focus...)
+Use 50 mm lens for focusing (sharper focus, however less depth of field and closer to the painting, the lens is also thinner - maybe less absorption in total)
