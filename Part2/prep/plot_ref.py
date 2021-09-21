@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
-from constants import *
+from constants import data_dir_part1
+from pathlib import Path
+import numpy as np
 from THz.preprocessing import offset, fft, butter_highpass_filter
+
 
 def highpass_filter(t, y):
     cutoff, order = 0.2, 9
